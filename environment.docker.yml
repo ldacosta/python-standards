@@ -1,0 +1,8 @@
+# This is the conda environment file for all docker dependencies
+name: platypus-core
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - conda-lock=0.13.2  # 401 issue when retrieving mims packages with 1.0.5
+  - conda-pack=0.7.0

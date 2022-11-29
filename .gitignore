@@ -1,0 +1,29 @@
+# IDE
+.idea
+
+# Pytest
+.pytest_cache
+.coverage
+coverage.xml
+
+# cache
+__pycache__
+
+# output artifacts
+*.gz
+*.gml
+*.tar
+*.graphml
+*.pickle
+output/
+outputs/
+*.csv.gz
+
+# Mypy
+.mypy_cache
+
+# jupyter
+*.ipynb*
+
+# Auth file
+auth.json

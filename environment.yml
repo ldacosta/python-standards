@@ -1,0 +1,10 @@
+# This is the conda environment file for production dependencies - i.e. deps that 'are' needed for production
+name: platypus-core
+channels:
+  - mims-conda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.4
+  - igraph-mims=0.3.0
+  - structlog=21.5.0

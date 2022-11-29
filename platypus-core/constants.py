@@ -1,0 +1,2 @@
+"""Constants."""
+CONSTANT = 3

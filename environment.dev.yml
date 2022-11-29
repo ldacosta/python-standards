@@ -1,0 +1,17 @@
+# This is the conda environment file for all optional test/dev dependencies - i.e. deps that are 'not' needed for production
+name: platypus-core
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pytest=7.1.1
+  - pytest-mock=3.7.0
+  - invoke=1.7.0
+  - mypy=0.942
+  - black=22.3.0
+  - flake8=4.0.1
+  - flake8-docstrings=1.6.0
+  - pylint=2.13.4
+  - isort=5.10.1
+  - pytest-benchmark=3.4.1
+  - pytest-cov=3.0.0

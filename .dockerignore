@@ -1,0 +1,9 @@
+tasks.py
+*/debug
+*/tests
+outputs
+*.md
+Dockerfile
+.dockerignore
+.git
+.gitignore

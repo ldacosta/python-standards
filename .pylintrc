@@ -1,0 +1,6 @@
+[MASTER]
+jobs=0
+ignore=debug
+
+[MESSAGES CONTROL]
+disable=too-many-arguments,too-many-locals,line-too-long,redefined-outer-name,cell-var-from-loop,consider-using-with,fixme,unspecified-encoding
